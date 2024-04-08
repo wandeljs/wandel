@@ -4,7 +4,6 @@
 	"env": {
 		"node": true
 	},
-	"ignorePatterns": ["**/*.ts"],
 	"plugins": ["@typescript-eslint"],
 	"rules": {},
 	"overrides": [
