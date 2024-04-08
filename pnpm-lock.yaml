@@ -23,9 +23,6 @@ importers:
       console-fail-test:
         specifier: 0.2.3
         version: 0.2.3
-      eslint-plugin-vitest:
-        specifier: 0.4.2-beta.1
-        version: 0.4.2-beta.1(eslint@8.57.0)(typescript@5.4.4)(vitest@1.4.0)
       husky:
         specifier: 9.0.11
         version: 9.0.11
@@ -2998,27 +2995,6 @@ packages:
       esutils: 2.0.3
     optionalDependencies:
       source-map: 0.6.1
-    dev: true
-
-  /eslint-plugin-vitest@0.4.2-beta.1(eslint@8.57.0)(typescript@5.4.4)(vitest@1.4.0):
-    resolution: {integrity: sha512-XMcAvL1G0npzRXeyHuTtv2jk3qQorCV+gDdbdun/7+fiDOYsNTiKmMu3KI6Aot2iDH6129ZyGDjKdfO7cOL0vQ==}
-    engines: {node: ^18.0.0 || >= 20.0.0}
-    peerDependencies:
-      '@typescript-eslint/eslint-plugin': '*'
-      eslint: '>=8.0.0'
-      vitest: '*'
-    peerDependenciesMeta:
-      '@typescript-eslint/eslint-plugin':
-        optional: true
-      vitest:
-        optional: true
-    dependencies:
-      '@typescript-eslint/utils': 7.5.0(eslint@8.57.0)(typescript@5.4.4)
-      eslint: 8.57.0
-      vitest: 1.4.0(@types/node@20.12.4)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
     dev: true
 
   /eslint-scope@7.2.2:

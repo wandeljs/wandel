@@ -5,7 +5,7 @@
 		"node": true
 	},
 	"ignorePatterns": ["**/*.ts"],
-	"plugins": ["@typescript-eslint", "vitest"],
+	"plugins": ["@typescript-eslint"],
 	"rules": {},
 	"overrides": [
 		{
