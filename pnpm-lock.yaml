@@ -8,21 +8,24 @@ importers:
 
   .:
     devDependencies:
-      '@eslint/js':
-        specifier: ^8.48.0
-        version: 8.48.0
       '@release-it/conventional-changelog':
         specifier: 8.0.1
         version: 8.0.1(release-it@17.1.1)
-      '@types/eslint':
-        specifier: 8.56.7
-        version: 8.56.7
+      '@typescript-eslint/eslint-plugin':
+        specifier: 7.5.0
+        version: 7.5.0(@typescript-eslint/parser@7.5.0)(eslint@8.57.0)(typescript@5.4.4)
+      '@typescript-eslint/parser':
+        specifier: 7.5.0
+        version: 7.5.0(eslint@8.57.0)(typescript@5.4.4)
       '@vitest/coverage-v8':
         specifier: 1.4.0
         version: 1.4.0(vitest@1.4.0)
       console-fail-test:
         specifier: 0.2.3
         version: 0.2.3
+      eslint:
+        specifier: 8.57.0
+        version: 8.57.0
       husky:
         specifier: 9.0.11
         version: 9.0.11
@@ -729,11 +732,6 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@eslint/js@8.48.0:
-    resolution: {integrity: sha512-ZSjtmelB7IJfWD2Fvb7+Z+ChTIKWq6kjda95fLcQKNS5aheVHn4IkfgRQE3sIIzTcSLwLcLZUD9UBt+V7+h+Pw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /@eslint/js@8.57.0:
@@ -1466,13 +1464,6 @@ packages:
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 9.0.4
-    dev: true
-
-  /@types/eslint@8.56.7:
-    resolution: {integrity: sha512-SjDvI/x3zsZnOkYZ3lCt9lOZWZLB2jIlNKz+LBgCtDurK0JZcwucxYHn1w2BJkD34dgX9Tjnak0txtq4WTggEA==}
-    dependencies:
-      '@types/estree': 1.0.5
-      '@types/json-schema': 7.0.15
     dev: true
 
   /@types/estree@1.0.5:
