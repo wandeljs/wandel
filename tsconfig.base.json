@@ -3,7 +3,8 @@
 		"declaration": true,
 		"declarationMap": true,
 		"esModuleInterop": true,
-		"module": "NodeNext",
+		"target": "ESNext",
+		"module": "ESNext",
 		"moduleResolution": "NodeNext",
 		"noEmit": true,
 		"outDir": "lib",
@@ -11,7 +12,10 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"target": "ES2022"
-	},
-	"include": ["src"]
+		"noImplicitAny": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": true,
+		"types": ["node", "./types"]
+	}
 }

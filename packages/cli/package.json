@@ -1,0 +1,45 @@
+{
+	"name": "@meta-morphix/cli",
+	"version": "0.0.0",
+	"private": true,
+	"description": "CLI for Code Transformations and Generations",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/niklas-wortmann/meta-morphix"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Jan-Niklas Wortmann",
+		"email": "jwortmann719@gmail.com"
+	},
+	"type": "module",
+	"main": "./lib/index.js",
+	"files": [
+		"lib/",
+		"package.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsup",
+		"test": "vitest",
+		"tsc": "tsc"
+	},
+	"devDependencies": {
+		"@types/ini": "4.1.0",
+		"@types/npm-package-arg": "6.1.4",
+		"@types/pacote": "11.1.8",
+		"@yarnpkg/lockfile": "1.1.0",
+		"citty": "0.1.6",
+		"consola": "^3.2.3",
+		"ini": "4.1.2",
+		"npm-package-arg": "11.0.1",
+		"npm-pick-manifest": "9.0.0",
+		"pacote": "17.0.6",
+		"semver": "^7.6.0",
+		"std-env": "3.7.0"
+	},
+	"publishConfig": {
+		"provenance": true
+	}
+}

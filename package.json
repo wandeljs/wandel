@@ -1,6 +1,7 @@
 {
 	"name": "meta-morphix",
 	"version": "0.0.0",
+	"private": true,
 	"description": "Libraries for Code Transformations and Generations",
 	"repository": {
 		"type": "git",
@@ -31,18 +32,11 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"devDependencies": {
+		"@eslint/js": "^8.48.0",
 		"@release-it/conventional-changelog": "8.0.1",
 		"@types/eslint": "8.56.7",
-		"@typescript-eslint/eslint-plugin": "7.5.0",
-		"@typescript-eslint/parser": "7.5.0",
 		"@vitest/coverage-v8": "1.4.0",
 		"console-fail-test": "0.2.3",
-		"eslint": "8.57.0",
-		"eslint-plugin-deprecation": "2.0.0",
-		"eslint-plugin-eslint-comments": "3.2.0",
-		"eslint-plugin-jsdoc": "48.2.3",
-		"eslint-plugin-n": "16.6.2",
-		"eslint-plugin-regexp": "2.4.0",
 		"eslint-plugin-vitest": "0.4.2-beta.1",
 		"husky": "9.0.11",
 		"knip": "5.8.0",
@@ -53,13 +47,11 @@
 		"release-it": "17.1.1",
 		"tsup": "8.0.2",
 		"typescript": "5.4.4",
+		"typescript-eslint": "7.5.0",
 		"vitest": "1.4.0"
 	},
 	"packageManager": "pnpm@8.15.4",
 	"engines": {
 		"node": ">=18"
-	},
-	"publishConfig": {
-		"provenance": true
 	}
 }
