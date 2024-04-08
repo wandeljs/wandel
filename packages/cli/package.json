@@ -13,22 +13,31 @@
 		"email": "jwortmann719@gmail.com"
 	},
 	"type": "module",
-	"main": "./lib/index.js",
+	"exports": {
+		".": "./dist/index.mjs",
+		"./cli": "./bin/metamorphix.js"
+	},
+	"types": "./dist/index.d.ts",
+	"bin": {
+		"metamorphix": "./bin/metamorphix.mjs"
+	},
 	"files": [
-		"lib/",
-		"package.json",
+		"bin",
+		"dist",
 		"LICENSE.md",
 		"README.md"
 	],
 	"scripts": {
 		"build": "tsup",
-		"test": "vitest",
-		"tsc": "tsc"
+		"prepublishOnly": "pnpm build",
+		"test": "vitest"
 	},
 	"devDependencies": {
 		"@types/ini": "4.1.0",
+		"@types/node": "20.12.5",
 		"@types/npm-package-arg": "6.1.4",
 		"@types/pacote": "11.1.8",
+		"@types/semver": "7.5.8",
 		"@yarnpkg/lockfile": "1.1.0",
 		"citty": "0.1.6",
 		"consola": "^3.2.3",

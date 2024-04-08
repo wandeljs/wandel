@@ -1,7 +1,7 @@
 export async function checkEngines() {
-	const satisfies = await import("semver/functions/satisfies.js").then(
+	const satisfies = await import("semver/functions/satisfies").then(
 		(r) =>
-			r.default || (r as any as typeof import("semver/functions/satisfies.js")),
+			r.default || (r as any as typeof import("semver/functions/satisfies")),
 	); // npm/node-semver#381
 	const currentNode = process.versions.node;
 	const nodeRange = ">= 18.0.0";

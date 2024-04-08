@@ -1,11 +1,11 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-	bundle: false,
+	bundle: true,
 	clean: true,
 	dts: true,
-	entry: ["src/**/*.ts", "!src/**/*.test.*"],
+	entry: ["lib/**/*.ts", "!./**/*.test.*"],
 	format: "esm",
-	outDir: "lib",
+	outDir: "dist",
 	sourcemap: true,
 });

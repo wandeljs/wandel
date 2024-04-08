@@ -12,18 +12,43 @@
 		"name": "Jan-Niklas Wortmann",
 		"email": "jwortmann719@gmail.com"
 	},
-	"type": "module",
-	"main": "./lib/index.js",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.mts",
+			"default": "./dist/index.mjs"
+		},
+		"./types": {
+			"types": "./dist/types.d.mts"
+		},
+		"./dist/*": "./dist/*",
+		"./package.json": "./package.json",
+		"./*": "./dist/*"
+	},
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.mts",
+	"typesVersions": {
+		"*": {
+			"types": [
+				"./dist/types.d.mts"
+			],
+			"*": [
+				"./dist/*",
+				"./*"
+			]
+		}
+	},
 	"files": [
-		"lib/",
-		"package.json",
+		"dist",
 		"LICENSE.md",
 		"README.md"
 	],
 	"scripts": {
-		"build": "tsup",
-		"test": "vitest",
-		"tsc": "tsc"
+		"build": "rimraf dist && rollup -c",
+		"dev": "rollup -cw",
+		"prepublishOnly": "pnpm build",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@angular-devkit/schematics": "17.3.2"

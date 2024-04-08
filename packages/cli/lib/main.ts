@@ -3,7 +3,7 @@ import { provider } from "std-env";
 import { commands } from "./commands";
 import { setupGlobalConsole } from "./utils/console";
 import { checkEngines } from "./utils/engines";
-import cliPackage from "../package.json" assert { type: "json" };
+import cliPackage from "../package.json";
 
 export const main = defineCommand({
 	meta: {
@@ -19,6 +19,12 @@ export const main = defineCommand({
 
 		// Check Node.js version and CLI updates in background
 		let backgroundTasks: Promise<any> | undefined;
+		if (command !== "_dev" && provider !== "stackblitz") {
+			backgroundTasks = Promise.all([
+				checkEngines(),
+				// checkForUpdates(),
+			]).catch((err) => console.error(err));
+		}
 		if (command !== "_dev" && provider !== "stackblitz") {
 			backgroundTasks = Promise.all([
 				checkEngines(),
