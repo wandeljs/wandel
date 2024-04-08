@@ -15,7 +15,6 @@
 		"noImplicitAny": true,
 		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
-		"noUnusedLocals": true,
-		"types": ["node", "./types"]
+		"noUnusedLocals": true
 	}
 }
