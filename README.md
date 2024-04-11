@@ -1,5 +1,7 @@
 <h1 align="center">Wandel</h1>
 
+<p align="center">Libraries for Code Transformations and Generations</p>
+
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
