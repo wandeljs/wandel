@@ -2,7 +2,7 @@
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"moduleResolution": "Node",
-		"types": ["./types", "node"],
+		"types": ["./types", "node", "./npm-pick-manifest-typings"],
 		"esModuleInterop": true,
 		"resolveJsonModule": true
 	}
