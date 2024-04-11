@@ -16,3 +16,10 @@ export function setupGlobalConsole(opts: { dev?: boolean } = {}) {
 		consola.error("[uncaughtException]", err),
 	);
 }
+
+export function askChoices(
+	message: string,
+	choices: Array<{ label: string; value: string; hint?: string }>,
+): Promise<{ label: string; value: string; hint?: string }> {
+	return consola.prompt(message, { type: "select", options: choices });
+}

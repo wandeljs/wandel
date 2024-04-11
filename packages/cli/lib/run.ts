@@ -11,8 +11,8 @@ globalThis.__meta_morphix_cli__ = globalThis.__meta_morphix_cli__ || {
 	entry: fileURLToPath(
 		new URL(
 			import.meta.url.endsWith(".ts")
-				? "../bin/metamorphix.mjs"
-				: "../../bin/metamorphix.mjs",
+				? "../bin/wandel.mjs"
+				: "../../bin/wandel.mjs",
 			import.meta.url,
 		),
 	),
