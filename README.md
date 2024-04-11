@@ -1,4 +1,4 @@
-<h1 align="center">MetaMorphix</h1>
+<h1 align="center">Wandel</h1>
 
 <p align="center">Libraries for Code Transformations and Generations</p>
 
@@ -17,14 +17,14 @@
 
 ## Usage
 
+### CLI
+
 ```shell
-npm i meta-morphix
+npm i @wandel/cli
 ```
 
-```ts
-import { greet } from "meta-morphix";
-
-greet("Hello, world! 💖");
+```shell
+npx wandel migrate package-name
 ```
 
 ## Contributors

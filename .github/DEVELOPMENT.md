@@ -3,13 +3,10 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/<your-name-here>/meta-morphix
-cd meta-morphix
+git clone https://github.com/<your-name-here>/wandel
+cd wandel
 pnpm install
 ```
-
-> This repository includes a list of suggested VS Code extensions.
-> It's a good idea to use [VS Code](https://code.visualstudio.com) and accept its suggestion to install them, as they'll help with development.
 
 ## Building
 

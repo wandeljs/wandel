@@ -14,8 +14,8 @@ jobs:
 
             The release is available on:
 
-            * [GitHub releases](https://github.com/niklas-wortmann/meta-morphix/releases/tag/{release_tag})
-            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/meta-morphix/v/${{ env.npm_version }})
+            * [GitHub releases](https://github.com/wandeljs/wandel/releases/tag/{release_tag})
+            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/@wandel/v/${{ env.npm_version }})
 
             Cheers! 📦🚀
 

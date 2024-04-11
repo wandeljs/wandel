@@ -5,7 +5,7 @@
 	"description": "Libraries for Code Transformations and Generations",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/niklas-wortmann/meta-morphix"
+		"url": "https://github.com/wandeljs/wandel"
 	},
 	"license": "MIT",
 	"author": {

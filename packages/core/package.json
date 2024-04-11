@@ -5,12 +5,12 @@
 	"description": "CLI for Code Transformations and Generations",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/niklas-wortmann/meta-morphix"
+		"url": "https://github.com/wandeljs/wandel"
 	},
 	"license": "MIT",
 	"author": {
 		"name": "Jan-Niklas Wortmann",
-		"email": "jwortmann719@gmail.com"
+		"email": "jan@wordman.dev"
 	},
 	"sideEffects": false,
 	"exports": {
