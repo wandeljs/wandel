@@ -50,9 +50,6 @@
 		"prepublishOnly": "pnpm build",
 		"test": "vitest"
 	},
-	"dependencies": {
-		"@angular-devkit/schematics": "17.3.2"
-	},
 	"publishConfig": {
 		"provenance": true
 	}
