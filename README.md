@@ -1,7 +1,5 @@
 <h1 align="center">Wandel</h1>
 
-<p align="center">Libraries for Code Transformations and Generations</p>
-
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -14,6 +12,11 @@
 	<a href="http://npmjs.com/package/meta-morphix"><img alt="📦 npm version" src="https://img.shields.io/npm/v/meta-morphix?color=21bb42&label=%F0%9F%93%A6%20npm" /></a>
 	<img alt="💪 TypeScript: Strict" src="https://img.shields.io/badge/%F0%9F%92%AA_typescript-strict-21bb42.svg" />
 </p>
+
+Wandel (German word for "change",
+pronounced [ˈvandl'](https://ssl.gstatic.com/dictionary/static/pronunciation/2022-03-02/audio/wa/wandel_de_de_1.mp3))
+enables automatic code generation and migration.
+It is heavily inspired by the [Angular CLI](https://angular.io/cli) and the way it handles [schematics](https://angular.io/guide/schematics).
 
 ## Usage
 
