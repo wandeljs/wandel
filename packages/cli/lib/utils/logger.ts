@@ -8,7 +8,6 @@ export class Logger {
 	private constructor(verbose?: boolean) {
 		Logger.instance = createConsola({
 			level: verbose ? LogLevels.verbose : LogLevels.log,
-			fancy: true,
 		});
 	}
 
