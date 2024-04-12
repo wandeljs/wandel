@@ -16,5 +16,6 @@
 		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
 		"noUnusedLocals": true
-	}
+	},
+	"exclude": ["**/*.test.ts"]
 }

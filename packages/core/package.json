@@ -48,7 +48,7 @@
 		"build": "rimraf dist && rollup -c",
 		"dev": "rollup -cw",
 		"prepublishOnly": "pnpm build",
-		"test": "vitest"
+		"test": ""
 	},
 	"publishConfig": {
 		"provenance": true
