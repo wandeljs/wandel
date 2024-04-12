@@ -28,7 +28,7 @@
 		"README.md"
 	],
 	"scripts": {
-		"build": "tsup & cp ./lib/commands/update/schematic/collection.json ./dist/commands/update/schematic/collection.json",
+		"build": "tsup && cp ./lib/commands/update/schematic/collection.json ./dist/commands/update/schematic/collection.json",
 		"prepublishOnly": "pnpm build",
 		"test": "jest"
 	},
