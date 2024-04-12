@@ -41,6 +41,43 @@ export default defineCommand({
 			description: "Create source control commits for updates and migrations",
 			default: false,
 		},
+		force: {
+			type: "boolean",
+			description: "Ignore peer dependency version mismatches",
+			default: false,
+		},
+		next: {
+			type: "boolean",
+			description: "Use the prerelease version, including beta and RCs",
+			default: false,
+		},
+		"migrate-only": {
+			type: "boolean",
+			description:
+				"Only perform a migration, do not update the installed version",
+			default: false,
+		},
+		name: {
+			type: "string",
+			description:
+				"The name of the migration to run. Only available when a single package is updated",
+		},
+		from: {
+			type: "string",
+			description:
+				"Version from which to migrate from. Only available when a single package is updated, and only with 'migrate-only",
+		},
+		to: {
+			type: "string",
+			description:
+				"Version up to which to apply migrations. Only available when a single package is updated, and only with 'migrate-only' option. Requires 'from' to be specified. Default to the installed version detected.",
+		},
+		"allow-dirty": {
+			type: "boolean",
+			description:
+				"Whether to allow updating when the repository contains modified or untracked files.",
+			default: false,
+		},
 		...sharedArgs,
 	},
 	async run(ctx) {
