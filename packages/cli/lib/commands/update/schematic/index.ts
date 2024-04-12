@@ -1,10 +1,10 @@
-import { logging } from "@angular-devkit/core";
 import {
 	Rule,
 	SchematicContext,
 	SchematicsException,
 	Tree,
-} from "@angular-devkit/schematics";
+	logging,
+} from "@wandel/core";
 import * as npa from "npm-package-arg";
 import type { Manifest } from "pacote";
 import * as semver from "semver";
