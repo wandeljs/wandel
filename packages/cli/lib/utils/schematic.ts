@@ -1,7 +1,6 @@
-import { NodeWorkflow } from "@angular-devkit/schematics/tools";
 import { LoggerInstance } from "./logger";
 import { assertIsError } from "./error";
-import { UnsuccessfulWorkflowExecution } from "@angular-devkit/schematics";
+import { UnsuccessfulWorkflowExecution, NodeWorkflow } from "@wandel/core";
 import { colors } from "consola/utils";
 
 export async function executeSchematic(

@@ -23,6 +23,7 @@
 		},
 		"./dist/*": "./dist/*",
 		"./package.json": "./package.json",
+		"./collection-schema.json": "./collection-schema.json",
 		"./*": "./dist/*"
 	},
 	"main": "./dist/index.mjs",
@@ -49,6 +50,10 @@
 		"dev": "rollup -cw",
 		"prepublishOnly": "pnpm build",
 		"test": ""
+	},
+	"dependencies": {
+		"@angular-devkit/core": "17.3.4",
+		"@angular-devkit/schematics": "17.3.4"
 	},
 	"publishConfig": {
 		"provenance": true

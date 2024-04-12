@@ -1,10 +1,10 @@
+import semver from "semver/preload";
 import {
+	SchematicDescription,
 	FileSystemCollectionDescription,
 	FileSystemSchematicDescription,
 	NodeWorkflow,
-} from "@angular-devkit/schematics/tools";
-import semver from "semver/preload";
-import { SchematicDescription } from "@angular-devkit/schematics";
+} from "@wandel/core";
 import { askChoices } from "../../utils/console";
 import { executeSchematic } from "../../utils/schematic";
 import { Logger } from "../../utils/logger";

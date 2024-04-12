@@ -14,7 +14,7 @@ import {
 	NodeModulesEngineHost,
 	NodeWorkflow,
 	NodeWorkflowOptions,
-} from "@angular-devkit/schematics/tools";
+} from "@wandel/core";
 import { existsSync } from "node:fs";
 import { rm } from "node:fs/promises";
 import { createRequire } from "node:module";

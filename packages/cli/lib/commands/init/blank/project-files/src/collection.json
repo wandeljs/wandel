@@ -1,0 +1,4 @@
+{
+	"$schema": "../node_modules/@wandel/core/collection-schema.json",
+	"schematics": {}
+}

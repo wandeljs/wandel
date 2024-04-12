@@ -33,8 +33,6 @@
 		"test": "jest"
 	},
 	"devDependencies": {
-		"@angular-devkit/core": "17.3.3",
-		"@angular-devkit/schematics": "17.3.3",
 		"@types/ini": "4.1.0",
 		"@types/jest": "29.5.12",
 		"@types/node": "20.12.5",
@@ -42,6 +40,7 @@
 		"@types/pacote": "11.1.8",
 		"@types/semver": "7.5.8",
 		"@types/yarnpkg__lockfile": "1.1.9",
+		"@wandel/core": "workspace:*",
 		"@yarnpkg/lockfile": "1.1.0",
 		"citty": "0.1.6",
 		"consola": "^3.2.3",

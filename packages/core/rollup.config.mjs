@@ -5,6 +5,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import replace from "@rollup/plugin-replace";
 import dts from "rollup-plugin-dts";
 import ts from "rollup-plugin-typescript2";
+import json from "@rollup/plugin-json";
 
 const entries = ["lib/index.ts"];
 
@@ -16,6 +17,7 @@ const plugins = [
 		"DebugFlags.InDebugMode": "false",
 		preventAssignment: true,
 	}),
+	json(),
 	nodeResolve(),
 	commonjs(),
 ];
@@ -32,6 +34,7 @@ export default defineConfig([
 			},
 		},
 		plugins: [...plugins],
+		external: ["fsevents"],
 	},
 	{
 		input: entries,
