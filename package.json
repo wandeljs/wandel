@@ -26,7 +26,7 @@
 		"lint:knip": "knip",
 		"prepare": "simple-git-hooks",
 		"release": "bumpp && pnpm -r publish",
-		"test": "vitest",
+		"test": "pnpm -r run test",
 		"tsc": "tsc -p ./tsconfig.base.json --noEmit"
 	},
 	"simple-git-hooks": {
