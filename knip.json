@@ -1,9 +1,0 @@
-{
-	"$schema": "https://unpkg.com/knip@latest/schema.json",
-	"workspaces": {
-		"packages/*": {
-			"entry": "lib/{index,cli}.ts",
-			"project": "**/*.ts"
-		}
-	}
-}
