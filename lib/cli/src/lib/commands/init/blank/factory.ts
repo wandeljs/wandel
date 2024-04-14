@@ -70,7 +70,9 @@ export default function (options: Schema): Rule {
           collectionPath = p;
         }
       }
-    } catch {}
+    } catch {
+      // TODO ADD ERROR HANDLING
+    }
 
     let source = apply(url('./schematic-files'), [
       applyTemplates({

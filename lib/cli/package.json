@@ -10,5 +10,21 @@
   "author": {
     "name": "Jan-Niklas Wortmann",
     "email": "jan@wordman.dev"
+  },
+  "dependencies": {
+    "@wandel/core": "0.0.1",
+    "@yarnpkg/lockfile": "1.1.0",
+    "citty": "0.1.6",
+    "consola": "^3.2.3",
+    "ini": "4.1.2",
+    "npm-package-arg": "11.0.2",
+    "npm-pick-manifest": "9.0.0",
+    "nypm": "^0.3.8",
+    "ora": "8.0.1",
+    "pacote": "17.0.7",
+    "pathe": "1.1.2",
+    "semver": "^7.6.0",
+    "std-env": "3.7.0",
+    "tslib": "^2.3.0"
   }
 }

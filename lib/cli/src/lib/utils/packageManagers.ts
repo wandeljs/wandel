@@ -189,7 +189,9 @@ function normalizeOptions(
               /\r?\n/g,
               '\n'
             );
-          } catch {}
+          } catch {
+            // TODO Handle Error
+          }
         }
         break;
       case 'before':
