@@ -17,11 +17,11 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/lib/cli",
-        "tsConfig": "lib/cli/tsconfig.lib.json",
-        "packageJson": "lib/cli/package.json",
-        "main": "lib/cli/src/index.ts",
-        "assets": ["lib/cli/*.md"]
+        "outputPath": "dist/cli",
+        "tsConfig": "packages/cli/tsconfig.lib.json",
+        "packageJson": "packages/cli/package.json",
+        "main": "packages/cli/src/index.ts",
+        "assets": ["packages/cli/*.md"]
       }
     },
     "nx-release-publish": {

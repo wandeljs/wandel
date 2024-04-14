@@ -43,7 +43,9 @@
   "nxCloudAccessToken": "NTQzNmFhNTctNWZmZS00M2NlLTgyNzAtOGJmYmVkNGIyMzcxfHJlYWQtd3JpdGU=",
   "release": {
     "version": {
+      "conventionalCommits": true,
       "preVersionCommand": "pnpm dlx nx run-many -t build"
-    }
+    },
+    "projects": ["packages/*"]
   }
 }
