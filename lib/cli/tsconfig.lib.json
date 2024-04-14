@@ -4,11 +4,11 @@
     "module": "commonjs",
     "outDir": "../../dist/out-tsc",
     "declaration": true,
-    "types": ["./types", "node", "./npm-pick-manifest-typings"],
+    "types": ["node"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "target": "ESNext"
   },
   "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "./types.d.ts"]
 }

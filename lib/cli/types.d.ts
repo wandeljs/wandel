@@ -1,10 +1,7 @@
-declare global {
-	var __meta_morphix_cli__:
-		| undefined
-		| {
-				entry: string;
-				startTime: number;
-		  };
+declare module 'npm-pick-manifest' {
+  function pickManifest(
+    metadata: import('./src/lib/commands/update/packages').PackageMetadata,
+    selector: string
+  ): import('./src/lib/commands/update/packages').PackageManifest;
+  export = pickManifest;
 }
-
-export {}; // TODO DOUBLE CHECK IF NEEDED
