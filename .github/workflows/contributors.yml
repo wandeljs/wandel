@@ -5,7 +5,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: ./.github/actions/prepare
       - env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         uses: JoshuaKGoldberg/all-contributors-auto-action@v0.4.3
