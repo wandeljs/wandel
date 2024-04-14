@@ -11,6 +11,9 @@
     "name": "Jan-Niklas Wortmann",
     "email": "jan@wordman.dev"
   },
+  "bin": {
+    "wandel": "./bin/wandel.mjs"
+  },
   "dependencies": {
     "@wandel/core": "0.0.1",
     "@yarnpkg/lockfile": "1.1.0",
