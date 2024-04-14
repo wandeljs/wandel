@@ -1,4 +1,4 @@
 export interface Schema {
-	name: string;
-	author: string;
+  name: string;
+  author: string;
 }

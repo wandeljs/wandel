@@ -1,24 +1,24 @@
 {
-	"name": "<%= dasherize(name) %>",
-	"version": "0.0.0",
-	"description": "A blank schematics",
-	"keywords": [
-		"schematics"
-	],
-	"license": "MIT",
-	"author": "<%= author %>",
-	"scripts": {
-		"build": "tsc -p tsconfig.json",
-		"test": "npm run build && jasmine src/**/*_spec.js"
-	},
-	"dependencies": {
-		"@wandel/core": "^<%= coreVersion %>",
-		"typescript": "~5.4.2"
-	},
-	"devDependencies": {
-		"@types/jasmine": "~5.1.0",
-		"@types/node": "^18.18.0",
-		"jasmine": "^5.0.0"
-	},
-	"schematics": "./src/collection.json"
+  "name": "<%= dasherize(name) %>",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "keywords": [
+    "schematics"
+  ],
+  "license": "MIT",
+  "author": "<%= author %>",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "dependencies": {
+    "@wandel/core": "^<%= coreVersion %>",
+    "typescript": "~5.4.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "jasmine": "^5.0.0"
+  },
+  "schematics": "./src/collection.json"
 }

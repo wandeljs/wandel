@@ -1,51 +1,51 @@
-import ora, { Ora } from "ora";
-import { colors } from "consola/utils";
+import ora, { Ora } from 'ora';
+import { colors } from 'consola/utils';
 
 export class Spinner {
-	private readonly spinner: Ora;
+  private readonly spinner: Ora;
 
-	/** When false, only fail messages will be displayed. */
-	enabled = true;
+  /** When false, only fail messages will be displayed. */
+  enabled = true;
 
-	constructor(text?: string) {
-		this.spinner = ora({
-			text,
-			// The below 2 options are needed because otherwise CTRL+C will be delayed
-			// when the underlying process is sync.
-			hideCursor: false,
-			discardStdin: false,
-		});
-	}
+  constructor(text?: string) {
+    this.spinner = ora({
+      text,
+      // The below 2 options are needed because otherwise CTRL+C will be delayed
+      // when the underlying process is sync.
+      hideCursor: false,
+      discardStdin: false,
+    });
+  }
 
-	set text(text: string) {
-		this.spinner.text = text;
-	}
+  set text(text: string) {
+    this.spinner.text = text;
+  }
 
-	succeed(text?: string): void {
-		if (this.enabled) {
-			this.spinner.succeed(text);
-		}
-	}
+  succeed(text?: string): void {
+    if (this.enabled) {
+      this.spinner.succeed(text);
+    }
+  }
 
-	info(text?: string): void {
-		this.spinner.info(text);
-	}
+  info(text?: string): void {
+    this.spinner.info(text);
+  }
 
-	fail(text?: string): void {
-		this.spinner.fail(text && colors.redBright(text));
-	}
+  fail(text?: string): void {
+    this.spinner.fail(text && colors.redBright(text));
+  }
 
-	warn(text?: string): void {
-		this.spinner.warn(text && colors.yellowBright(text));
-	}
+  warn(text?: string): void {
+    this.spinner.warn(text && colors.yellowBright(text));
+  }
 
-	stop(): void {
-		this.spinner.stop();
-	}
+  stop(): void {
+    this.spinner.stop();
+  }
 
-	start(text?: string): void {
-		if (this.enabled) {
-			this.spinner.start(text);
-		}
-	}
+  start(text?: string): void {
+    if (this.enabled) {
+      this.spinner.start(text);
+    }
+  }
 }
