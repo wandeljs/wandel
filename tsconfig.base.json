@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@wandel/cli": ["lib/cli/src/index.ts"],
-      "@wandel/core": ["lib/core/src/index.ts"]
+      "@wandel/cli": ["packages/cli/src/index.ts"],
+      "@wandel/core": ["packages/core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
