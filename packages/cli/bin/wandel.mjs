@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { runMain } from '../src/index.mjs';
+import { runMain } from "../src";
 
 runMain();
