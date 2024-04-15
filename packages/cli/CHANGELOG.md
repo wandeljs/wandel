@@ -1,3 +1,15 @@
+## 0.1.1 (2024-04-15)
+
+
+### 🩹 Fixes
+
+- proper import path for new org scope
+
+
+### ❤️  Thank You
+
+- Jan-Niklas Wortmann
+
 ## 0.1.0 (2024-04-15)
 
 
