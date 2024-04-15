@@ -3,7 +3,7 @@ import {
   UnitTestTree,
   virtualFs,
   HostTree,
-} from '@wandel/core';
+} from '@wandeljs/core';
 
 describe('@schematics/update', () => {
   const schematicRunner = new SchematicTestRunner(

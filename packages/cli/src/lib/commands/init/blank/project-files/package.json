@@ -12,7 +12,7 @@
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "dependencies": {
-    "@wandel/core": "^<%= coreVersion %>",
+    "@wandeljs/core": "^<%= coreVersion %>",
     "typescript": "~5.4.2"
   },
   "devDependencies": {

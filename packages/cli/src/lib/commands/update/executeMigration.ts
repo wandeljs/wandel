@@ -4,7 +4,7 @@ import {
   FileSystemCollectionDescription,
   FileSystemSchematicDescription,
   NodeWorkflow,
-} from '@wandel/core';
+} from '@wandeljs/core';
 import { askChoices } from '../../utils/console';
 import { executeSchematic } from '../../utils/schematic';
 import { Logger } from '../../utils/logger';

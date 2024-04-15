@@ -3,7 +3,7 @@ import { sharedArgs } from '../_shared';
 import { resolve } from 'pathe';
 import { getPackageManager } from '../../utils/packageManagers';
 import { Logger } from '../../utils/logger';
-import { NodeWorkflow } from '@wandel/core';
+import { NodeWorkflow } from '@wandeljs/core';
 
 export default defineCommand({
   meta: {

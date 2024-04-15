@@ -1,6 +1,6 @@
 import { LoggerInstance } from './logger';
 import { assertIsError } from './error';
-import { UnsuccessfulWorkflowExecution, NodeWorkflow } from '@wandel/core';
+import { UnsuccessfulWorkflowExecution, NodeWorkflow } from '@wandeljs/core';
 import { colors } from 'consola/utils';
 
 export async function executeSchematic(

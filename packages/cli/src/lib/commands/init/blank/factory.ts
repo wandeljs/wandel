@@ -23,7 +23,7 @@ import {
   move,
   url,
   NodePackageInstallTask,
-} from '@wandel/core';
+} from '@wandeljs/core';
 import { Schema } from './schema';
 import { version as coreVersion } from '../../../../../package.json';
 

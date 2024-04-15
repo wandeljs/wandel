@@ -1,4 +1,4 @@
-import { Tree, SchematicTestRunner } from '@wandel/core';
+import { Tree, SchematicTestRunner } from '@wandeljs/core';
 import * as path from 'path';
 
 const collectionPath = path.join(__dirname, '../collection.json');

@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { sharedArgs } from '../_shared';
-import { NodeWorkflow } from '@wandel/core';
+import { NodeWorkflow } from '@wandeljs/core';
 import { getPackageManager } from '../../utils/packageManagers';
 import { join, resolve } from 'pathe';
 import { Logger } from '../../utils/logger';

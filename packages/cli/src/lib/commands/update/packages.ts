@@ -4,7 +4,7 @@ import { dirname, join, resolve } from 'pathe';
 import { Manifest, Packument } from 'pacote';
 import { ensureNpmrc, npmrc } from '../../utils/packageManagers';
 import { LoggerInstance } from '../../utils/logger';
-import { logging } from '@wandel/core';
+import { logging } from '@wandeljs/core';
 
 export interface PackageIdentifier {
   type: 'git' | 'tag' | 'version' | 'range' | 'file' | 'directory' | 'remote';

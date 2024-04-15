@@ -4,7 +4,7 @@ import {
   SchematicsException,
   Tree,
   logging,
-} from '@wandel/core';
+} from '@wandeljs/core';
 import * as npa from 'npm-package-arg';
 import type { Manifest } from 'pacote';
 import * as semver from 'semver';
