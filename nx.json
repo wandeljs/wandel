@@ -42,7 +42,6 @@
   ],
   "nxCloudAccessToken": "NTQzNmFhNTctNWZmZS00M2NlLTgyNzAtOGJmYmVkNGIyMzcxfHJlYWQtd3JpdGU=",
   "release": {
-    "releaseTagPattern": "release/{version}",
     "git": {
       "commitMessage": "chore(release): {version}"
     },
