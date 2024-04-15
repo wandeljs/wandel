@@ -1,6 +1,5 @@
 ## 0.1.0 (2024-04-15)
 
-
 ### 🚀 Features
 
 - **all:** fix release package json ([cdc876d](https://github.com/wandeljs/wandel/commit/cdc876d))
@@ -10,6 +9,6 @@
 
 - dist path for publish libraries ([e214d9f](https://github.com/wandeljs/wandel/commit/e214d9f))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Jan-Niklas Wortmann

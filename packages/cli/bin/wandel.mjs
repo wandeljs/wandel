@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { runMain } from "../src";
+import { runMain } from '../src';
 
 runMain();
