@@ -21,7 +21,11 @@
         "tsConfig": "packages/cli/tsconfig.lib.json",
         "packageJson": "packages/cli/package.json",
         "main": "packages/cli/src/index.ts",
-        "assets": ["packages/cli/*.md", "packages/cli/bin/**/*"]
+        "assets": [
+          "packages/cli/*.md",
+          "packages/cli/bin/**/*",
+          "packages/cli/src/**/*.json"
+        ]
       }
     },
     "nx-release-publish": {
