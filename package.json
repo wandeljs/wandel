@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@angular-devkit/core": "17.3.4",
     "@angular-devkit/schematics": "17.3.4",

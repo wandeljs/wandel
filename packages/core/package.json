@@ -1,5 +1,5 @@
 {
-  "name": "@wandel/core",
+  "name": "@wandeljs/core",
   "version": "0.0.1",
   "main": "./src/index.js",
   "type": "commonjs",

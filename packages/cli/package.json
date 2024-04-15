@@ -1,5 +1,5 @@
 {
-  "name": "@wandel/cli",
+  "name": "@wandeljs/cli",
   "version": "0.0.1",
   "description": "CLI for Code Transformations and Generations",
   "repository": {
