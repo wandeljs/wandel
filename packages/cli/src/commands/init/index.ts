@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { sharedArgs } from '../_shared';
-import { NodeWorkflow } from '@wandeljs/core';
+import { NodeWorkflow, createConsoleLogger } from '@wandeljs/core';
 import { getPackageManager } from '../../utils/packageManagers';
 import { join, resolve } from 'pathe';
 import { Logger } from '../../utils/logger';
@@ -44,7 +44,7 @@ export default defineCommand({
       options: ctx.args,
       allowPrivate: false,
       debug: verbose,
-      logger: undefined, // TODO Figure out something about the logger
+      logger: createConsoleLogger(ctx.args.verbose), // TODO Figure out something about the logger
     });
   },
 });
