@@ -41,10 +41,10 @@ export default defineCommand({
     return workflow.execute({
       collection: INIT_SCHEMATIC,
       schematic: 'init',
-      options: {},
+      options: ctx.args,
       allowPrivate: false,
       debug: verbose,
-      logger: logger as any, // TODO Figure out something about the logger
+      logger: undefined, // TODO Figure out something about the logger
     });
   },
 });

@@ -53,7 +53,7 @@ export default defineCommand({
       options: {},
       allowPrivate: false,
       debug: verbose,
-      logger: logger as any, // TODO Figure out something about the logger
+      logger: undefined,
     });
   },
 });
