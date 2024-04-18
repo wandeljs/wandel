@@ -1,2 +1,2 @@
-export { main } from './lib/main';
-export { runCommand, runMain } from './lib/run';
+export { main } from './main';
+export { runCommand, runMain } from './run';

@@ -1,6 +1,6 @@
 {
   "name": "@wandeljs/cli",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "CLI for Code Transformations and Generations",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "private": false,
   "dependencies": {
-    "@wandeljs/core": "0.1.5",
+    "@wandeljs/core": "0.1.8",
     "@yarnpkg/lockfile": "1.1.0",
     "citty": "0.1.6",
     "consola": "^3.2.3",

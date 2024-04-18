@@ -25,7 +25,7 @@ import {
   NodePackageInstallTask,
 } from '@wandeljs/core';
 import { Schema } from './schema';
-import { version as coreVersion } from '../../../../../package.json';
+import { version as coreVersion } from '../../../../package.json';
 
 function addSchematicToCollectionJson(
   collectionPath: Path,

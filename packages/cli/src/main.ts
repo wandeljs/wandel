@@ -3,7 +3,7 @@ import { provider } from 'std-env';
 import { commands } from './commands';
 import { setupGlobalConsole } from './utils/console';
 import { checkEngines } from './utils/engines';
-import cliPackage from '../../package.json';
+import cliPackage from '../package.json';
 
 export const main = defineCommand({
   meta: {

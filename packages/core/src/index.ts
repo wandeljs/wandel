@@ -1,3 +1,5 @@
+export { createConsoleLogger } from '@angular-devkit/core/node';
+
 export {
   JsonObject,
   Path,
