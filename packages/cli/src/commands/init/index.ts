@@ -6,7 +6,6 @@ import { join, resolve } from 'pathe';
 import { UnsuccessfulWorkflowExecution } from '@angular-devkit/schematics';
 import { colors } from 'consola/utils';
 import { createConsolaLogger } from '../../utils/logger';
-import { log } from '@clack/prompts';
 
 export default defineCommand({
   meta: {
@@ -116,8 +115,6 @@ export default defineCommand({
 
     // Show usage of deprecated options
     workflow.registry.useXDeprecatedProvider((msg) => logger.warn(msg));
-    logger.info('args: ' + JSON.stringify(ctx.args));
-    ctx.rawArgs.forEach((e) => logger.info('raw arg' + JSON.stringify(e)));
 
     try {
       await workflow
