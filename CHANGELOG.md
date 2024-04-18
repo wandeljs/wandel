@@ -1,3 +1,15 @@
+## 0.1.3 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- wandel cli init ([b3727c1](https://github.com/wandeljs/wandel/commit/b3727c1))
+- **cli:** run command ([1d0b461](https://github.com/wandeljs/wandel/commit/1d0b461))
+
+### ❤️  Thank You
+
+- Jan-Niklas Wortmann
+
 ## 0.1.2 (2024-04-15)
 
 

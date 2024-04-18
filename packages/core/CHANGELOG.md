@@ -1,3 +1,15 @@
+## 0.1.3 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- wandel cli init
+
+
+### ❤️  Thank You
+
+- Jan-Niklas Wortmann
+
 ## 0.1.2 (2024-04-15)
 
 
